@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <video autoplay muted loop>
+			<source src="./images/festa.mp4" type="video/mp4">
+		</video>
+        <div class="hero__container container">
+            <h1 class="hero__container__title">Meu Aniversário</h1>
+            <p class="hero__container__text">Faltam apenas</p>
+
+            <div class="countdown">
+                <div class="countdown__rectangle rotate" id="days">
+                    <div class="countdown__rectangle__text">
+                        <h1 id="daysToEvent"></h1>
+                        <p>days</p>
+                    </div>                    
+                </div>
+                <div class="countdown__rectangle rotate" id="hours">
+                    <div class="countdown__rectangle__text">
+                        <h1 id="hoursToEvent"></h1>
+                        <p>hours</p>
+                    </div>                    
+                </div>
+                <div class="countdown__rectangle rotate" id="minutes">
+                    <div class="countdown__rectangle__text">
+                        <h1 id="minToEvent"></h1>
+                        <p>minutes</p>
+                    </div>                    
+                </div>
+                <div class="countdown__rectangle rotate" id="seconds">
+                    <div class="countdown__rectangle__text">
+                        <h1 id="secondsToEvent"></h1>
+                        <p>seconds</p>
+                    </div>                    
+                </div>
+            </div>
+
+            <p class="hero__container__text text-sm">Você está convidado(a) para a minha festa de aniversário!</p>
+            <button class="btn" type="button">
+                <a href="">
+                <div class="btn__container">
+                    <b>Confirmar presença</b>
+                </div> 
+                </a> 
+            </button>
+        </div>
+    </section>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

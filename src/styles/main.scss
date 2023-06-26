@@ -1,0 +1,21 @@
+@use "hero";
+@use "countdown";
+@use "button";
+@use "variables";
+
+
+// reset & setup
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-gray);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+.countdown {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+    &__rectangle {
+        width: 100px;
+        height: 100px;
+        outline: 4px solid #fff;
+        border-radius: 8px;
+
+        &__text {
+            transform: rotate(-45deg);
+            padding: 9px;
+
+            h1 {
+                margin-bottom: -10px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
